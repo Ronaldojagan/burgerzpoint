@@ -59,8 +59,8 @@ const about = () => {
             </div>
                 <p className='banner-content-2-text'>About Us</p>
 
-             <div className='banner-content-cover'>
-                <Container className='container'>
+            <div className='banner-content-cover'>
+                <Container className='Container'>
                         <Row>
                             <Col xs="12" sm="6" md="4" lg="4">
                             <div>
@@ -127,7 +127,7 @@ const about = () => {
                                 </Row>
                             </Col>     
                         </Row>    
-            </Container>        
+                </Container>        
             </div>
              
              </div>

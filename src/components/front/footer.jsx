@@ -62,7 +62,7 @@ const Footer = () => {
             <li>Drinks</li>
           </ul>
           <ul>
-            <p className='listtxt1'>INSTAGRAM </p>
+          <p className='listtxt1'>INSTAGRAM </p>
             <div className='innerinstagram'>
               <img className='log'src={Image4} alt='1'></img>
               <img className='log'src={Image5} alt='1'></img>

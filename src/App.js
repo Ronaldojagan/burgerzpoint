@@ -1,7 +1,6 @@
 import React,{ useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import data from './components/back/Data';
 import Header from './components/front/header/header';
 import Routes from './components/front/header/Routes/Route';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -10,7 +9,7 @@ import 'aos/dist/aos.css';
 AOS.init()
 
 const App = () => {
-  const {productItems}= data;
+  
   const [cartItems,setCartItems] = useState([]);
   
   const handleAddProduct = (product) =>{
@@ -48,7 +47,6 @@ const App = () => {
     <Router>
       <Header cartItems={cartItems} />
       <Routes 
-      productItems={productItems} 
       cartItems={cartItems}
       handleAddProduct={handleAddProduct}
       handleRemoveProduct={handleRemoveProduct}

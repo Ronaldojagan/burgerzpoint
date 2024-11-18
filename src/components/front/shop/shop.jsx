@@ -6,7 +6,7 @@ import Image from '../../../images/featured_image_shop.jpg'
 import Image2 from '../../../images/cream_bottom_wave_01.png'
 import { IoSearch } from "react-icons/io5";
 
-const products =({productItems,handleAddProduct}) => {
+const products =({handleAddProduct}) => {
     return(
         <>
         <div className="shopbg">

@@ -81,6 +81,8 @@
     z-index: 2;
 }
 .container{
+    display: flex;
+    flex-wrap: wrap;
     background-color: #fff;
     border-radius: 40px;
     
@@ -174,13 +176,15 @@
         font-size:6rem;
     }
     .container{
+        display: flex;
+        flex-direction: column;
         width: 300px;
         margin-bottom: 100px;
     }
     .banner-content-cover{
-        margin-top: 100px;
+       margin-top: 100px;
         
-    }
+    }   
     .banner-content-cover-img{
         width:80%;
     }

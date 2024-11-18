@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import '../header/header.css'
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import Logo from '../../../images/logo.png'
+import { CgProfile } from "react-icons/cg";
 import {
   Collapse,
   Navbar,
@@ -15,7 +16,8 @@ const Header = ({cartItems}) => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
   return (
-    
+    <>
+      <div className="gap"></div>
        <Navbar className="header" expand='md'>
           <div>
             <NavbarBrand><Link to='/'><img className='logo' src={Logo} alt='1'/></Link></NavbarBrand>
@@ -25,17 +27,17 @@ const Header = ({cartItems}) => {
             <Nav className="header-links" navbar>
                     <ul>
                       <li>
-                        <Link to='/'>Home</Link>
+                        <a href='/'>Home</a>
                       </li>
                     </ul>
                     <ul>
                       <li>
-                        <Link to='/about'>About</Link>
+                        <a href ='/about'>About</a>
                       </li>
                     </ul>
                     <ul>
                       <li>
-                        <Link to='/Shop'>Shop</Link>
+                        <a href='/Shop'>Shop</a>
                       </li>
                     </ul>
                     <ul>
@@ -48,10 +50,15 @@ const Header = ({cartItems}) => {
                         </Link>
                       </li>
                     </ul>
+                    <ul>
+                      <li>
+                        <a  className ='login-logo' href='/login'>Login<CgProfile  /></a>
+                      </li>
+                    </ul>
                   </Nav>
                 </Collapse>
              </Navbar>
-        
+  </>     
   )
 }
 

@@ -9,15 +9,15 @@ import Bodycontent6 from '../../bodycontent6'
 import Bodycontent7 from '../../bodycontent7'
 import Footer from '../../footer'
 
-const homepage = () => {
+const homepage = ({handleAddProduct}) => {
   
   return (
     <div>
      <Bodycontent />
-     <Bodycontent2 />
-     <Bodycontent3 />
-     <Bodycontent4 />
-     <Bodycontent5 />
+     <Bodycontent2 handleAddProduct={handleAddProduct} />
+     <Bodycontent3 handleAddProduct={handleAddProduct} />
+     <Bodycontent4 handleAddProduct={handleAddProduct}/>
+     <Bodycontent5 handleAddProduct={handleAddProduct} />
      <Bodycontent6 />
      <Bodycontent7 />
     <Footer />

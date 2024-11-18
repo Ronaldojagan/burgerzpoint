@@ -1,9 +1,10 @@
 import React from 'react'
 import '../cart/cart.css'
 import Image from '../../../images/featured_image_shop.jpg'
-import Image2 from '../../../images/cream_bottom_wave_01.png'
+import Image2 from '../../../images/red_bottom_wave_01.png'
 import Footer from '../footer'
 import { Link } from 'react-router-dom'
+import { Container,Col,Row} from 'reactstrap';
 const cart = ({cartItems,
     handleAddProduct,
     handleRemoveProduct,
@@ -36,36 +37,43 @@ const cart = ({cartItems,
                                 <p className='l3'>Quantity</p>
                             
                     </div>
-                    {cartItems.map((item)=>(
-                    
-                    <div key={item.id} className='cart-item-list'>
-                            
-                            <img
-                            className='cart-items-image'
-                            src={item.Img}
-                            alt={item.name}
-                            />   
-                            <div className="cart-item-name">
-                                {item.name}
-                            </div>
-                            <div className='cart-adding'>
-                                <button className='cart-items-remove' onClick={() =>
-                                handleRemoveProduct(item)}>-</button>
-                                <button className='cart-items-add' onClick={() =>
-                                    handleAddProduct(item)}>+</button>
-                            </div>    
-                            <div className="cart-item-price">
-                                ${item.price}
-                            </div>
-                            <div className="item-quantity">
-                                {item.quantity}
-                            </div>
-                    
+                <Container className='cont'>
+                    <Row>
+                       
+                            {cartItems.map((item)=>(
+                            <div key={item.id} className='cart-item-list'>
+                                <Col  lg="2.5">      
+                                     <img className='cart-items-image'src={item.Img}  alt={item.name} /> 
+                                </Col> 
+                                <Col lg="1">         
+                                    <div className="cart-item-name">
+                                        {item.name}
+                                    </div>
+                                 </Col>    
+                                 <Col xs="4"  lg="3">      
+                                    <div className='cart-adding'>
+                                            <button className='cart-items-remove' onClick={() =>
+                                            handleRemoveProduct(item)}>-</button>
+                                            <button className='cart-items-add' onClick={() =>
+                                                handleAddProduct(item)}>+</button>
+                                    </div>
+                                 </Col>
 
-
-                 </div> 
-                ) )}
-            </div> 
+                                 <Col xs="2"  lg="3">       
+                                    <div className="cart-item-price">
+                                            ${item.price}
+                                    </div>
+                                  </Col>  
+                                  <Col  lg="2">    
+                                    <div className="item-quantity">
+                                            {item.quantity}
+                                     </div>
+                                   </Col> 
+                            </div> 
+                        ) )}
+                    </Row>
+               </Container> 
+                
                      <div className="clear-cart">{cartItems.length >=1 && (
                         <button className='clear-cart-button' onClick={handleCartClearance}>Clear Cart</button>
                      )}
@@ -75,7 +83,7 @@ const cart = ({cartItems,
                     )}
                     </div> 
                 
-           
+            </div> 
         </div>
        
     <Footer className="footer" />
