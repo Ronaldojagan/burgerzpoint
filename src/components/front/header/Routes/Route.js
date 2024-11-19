@@ -4,7 +4,7 @@ import About from '../../about/about';
 import Products from '../../shop/shop';
 import { Route,Routes } from 'react-router-dom'
 import Cart from '../../cart/cart';
-import Login from '../../login/login'
+
 const Rout = ({
   cartItems,
   handleAddProduct,
@@ -22,7 +22,7 @@ const Rout = ({
              handleRemoveProduct={handleRemoveProduct}
              handleCartClearance={handleCartClearance}
              />} />
-              <Route path='login' exact element={<Login />} />
+            
         </Routes>
     </div>
   )

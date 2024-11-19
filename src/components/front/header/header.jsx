@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import '../header/header.css'
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import Logo from '../../../images/logo.png'
-import { CgProfile } from "react-icons/cg";
 import {
   Collapse,
   Navbar,
@@ -50,11 +49,7 @@ const Header = ({cartItems}) => {
                         </Link>
                       </li>
                     </ul>
-                    <ul>
-                      <li>
-                        <a  className ='login-logo' href='/login'>Login<CgProfile  /></a>
-                      </li>
-                    </ul>
+                    
                   </Nav>
                 </Collapse>
              </Navbar>
