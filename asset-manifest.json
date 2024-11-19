@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/burgerzpoint/static/css/main.5e0a82a5.css",
+    "main.js": "/burgerzpoint/static/js/main.e86bd04c.js",
+    "static/js/453.ed3810f9.chunk.js": "/burgerzpoint/static/js/453.ed3810f9.chunk.js",
+    "static/media/home_01_delivery.png": "/burgerzpoint/static/media/home_01_delivery.c90cc55bba52fb6dc004.png",
+    "static/media/floating_burger_01.png": "/burgerzpoint/static/media/floating_burger_01.ccc6ad7bbbd4642dcb4f.png",
+    "static/media/floating_burger_02.png": "/burgerzpoint/static/media/floating_burger_02.228af776b87a2dcbbec6.png",
+    "static/media/hero_footer.jpg": "/burgerzpoint/static/media/hero_footer.34006131cab8020df70a.jpg",
+    "static/media/hero_about_us.jpg": "/burgerzpoint/static/media/hero_about_us.b1881e233b9415e92ef9.jpg",
+    "static/media/floating_fries_02-removebg-preview.png": "/burgerzpoint/static/media/floating_fries_02-removebg-preview.d8e7fe0ec766ab60dd9e.png",
+    "static/media/reviews_02.png": "/burgerzpoint/static/media/reviews_02.ade35a33c0e3cf1418f7.png",
+    "static/media/reviews_03.png": "/burgerzpoint/static/media/reviews_03.e3b7e53797eb92a0e3bb.png",
+    "static/media/inner_image_02.jpg": "/burgerzpoint/static/media/inner_image_02.99de792d1c298190afe4.jpg",
+    "static/media/floating_fries_01.png": "/burgerzpoint/static/media/floating_fries_01.5f32fcfcce55dc2d0252.png",
+    "static/media/inner_image_03.jpg": "/burgerzpoint/static/media/inner_image_03.6fcc12becdc488e193be.jpg",
+    "static/media/featured_image_shop.jpg": "/burgerzpoint/static/media/featured_image_shop.495885cef3818c6806e1.jpg",
+    "static/media/reviews_01.png": "/burgerzpoint/static/media/reviews_01.ac21c56b040c2da47276.png",
+    "static/media/inner_image_04.jpg": "/burgerzpoint/static/media/inner_image_04.eb5463c7daab23f67459.jpg",
+    "static/media/reviews_04.png": "/burgerzpoint/static/media/reviews_04.49c3191d2c7a46fb3334.png",
+    "index.html": "/burgerzpoint/index.html",
+    "main.5e0a82a5.css.map": "/burgerzpoint/static/css/main.5e0a82a5.css.map",
+    "main.e86bd04c.js.map": "/burgerzpoint/static/js/main.e86bd04c.js.map",
+    "453.ed3810f9.chunk.js.map": "/burgerzpoint/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e0a82a5.css",
+    "static/js/main.e86bd04c.js"
+  ]
+}
