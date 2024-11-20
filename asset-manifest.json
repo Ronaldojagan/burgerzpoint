@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/burgerzpoint/static/css/main.5e0a82a5.css",
-    "main.js": "/burgerzpoint/static/js/main.e86bd04c.js",
+    "main.js": "/burgerzpoint/static/js/main.0eea58d3.js",
     "static/js/453.ed3810f9.chunk.js": "/burgerzpoint/static/js/453.ed3810f9.chunk.js",
     "static/media/home_01_delivery.png": "/burgerzpoint/static/media/home_01_delivery.c90cc55bba52fb6dc004.png",
     "static/media/floating_burger_01.png": "/burgerzpoint/static/media/floating_burger_01.ccc6ad7bbbd4642dcb4f.png",
@@ -20,11 +20,11 @@
     "static/media/reviews_04.png": "/burgerzpoint/static/media/reviews_04.49c3191d2c7a46fb3334.png",
     "index.html": "/burgerzpoint/index.html",
     "main.5e0a82a5.css.map": "/burgerzpoint/static/css/main.5e0a82a5.css.map",
-    "main.e86bd04c.js.map": "/burgerzpoint/static/js/main.e86bd04c.js.map",
+    "main.0eea58d3.js.map": "/burgerzpoint/static/js/main.0eea58d3.js.map",
     "453.ed3810f9.chunk.js.map": "/burgerzpoint/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e0a82a5.css",
-    "static/js/main.e86bd04c.js"
+    "static/js/main.0eea58d3.js"
   ]
 }
