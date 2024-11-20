@@ -46,8 +46,7 @@ const App = () => {
   <div>
     <Router>
       <Header cartItems={cartItems} />
-      <div>hello</div>
-      <Routes 
+       <Routes 
         cartItems={cartItems}
         handleAddProduct={handleAddProduct}
         handleRemoveProduct={handleRemoveProduct}
