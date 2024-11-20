@@ -19,24 +19,24 @@ const Header = ({cartItems}) => {
       <div className="gap"></div>
        <Navbar className="header" expand='md'>
           <div>
-            <NavbarBrand><Link to='/'><img className='logo' src={Logo} alt='1'/></Link></NavbarBrand>
+            <NavbarBrand><Link to='#'><img className='logo' src={Logo} alt='1'/></Link></NavbarBrand>
           </div>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="header-links" navbar>
                     <ul>
                       <li>
-                        <a href='/'>Home</a>
+                        <Link to='/'>Home</Link>
                       </li>
                     </ul>
                     <ul>
                       <li>
-                        <a href ='/about'>About</a>
+                        <Link to ='/about'>About</Link>
                       </li>
                     </ul>
                     <ul>
                       <li>
-                        <a href='/Shop'>Shop</a>
+                        <Link to='/shop'>Shop</Link>
                       </li>
                     </ul>
                     <ul>

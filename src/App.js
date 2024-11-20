@@ -46,11 +46,12 @@ const App = () => {
   <div>
     <Router>
       <Header cartItems={cartItems} />
+      <div>hello</div>
       <Routes 
-      cartItems={cartItems}
-      handleAddProduct={handleAddProduct}
-      handleRemoveProduct={handleRemoveProduct}
-      handleCartClearance={handleCartClearance}
+        cartItems={cartItems}
+        handleAddProduct={handleAddProduct}
+        handleRemoveProduct={handleRemoveProduct}
+        handleCartClearance={handleCartClearance}
       />
     </Router>
   </div>
