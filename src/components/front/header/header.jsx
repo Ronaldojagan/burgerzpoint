@@ -19,7 +19,7 @@ const Header = ({cartItems}) => {
       <div className="gap"></div>
        <Navbar className="header" expand='md'>
           <div>
-            <NavbarBrand><Link to='#'><img className='logo' src={Logo} alt='1'/></Link></NavbarBrand>
+            <NavbarBrand><Link to='/'><img className='logo' src={Logo} alt='1'/></Link></NavbarBrand>
           </div>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>

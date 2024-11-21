@@ -1039,7 +1039,7 @@ body{
         }
         
         .rowtext2{
-            font-size: 20px;
+            font-size:18px;
             position: relative;
             top: -50px;
             left: 30px;
@@ -1047,7 +1047,7 @@ body{
            
         }
         .rowtext3{
-            font-size: 20px;
+            font-size:18px;
             position: relative;
             top: -50px;
             left: 30px;
@@ -1162,7 +1162,10 @@ body{
         }
         .form1{
             margin-top: 50px;
-
+            
+        }
+        input[type="email"]{
+            width:80%;
         } 
         .formbutton{
             margin-top:20px;

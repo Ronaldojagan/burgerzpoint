@@ -2,6 +2,7 @@ import React,{ useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/front/header/header';
+import Home from './components/front/header/home/home';
 import Routes from './components/front/header/Routes/Route';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AOS from 'aos';
@@ -45,13 +46,15 @@ const App = () => {
     <>
   <div>
     <Router>
+      
       <Header cartItems={cartItems} />
-       <Routes 
+      <Routes 
         cartItems={cartItems}
         handleAddProduct={handleAddProduct}
         handleRemoveProduct={handleRemoveProduct}
         handleCartClearance={handleCartClearance}
       />
+      <Home />
     </Router>
   </div>
     </>
