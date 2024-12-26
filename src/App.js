@@ -16,6 +16,7 @@ const App = () => {
   const handleAddProduct = (product) =>{
     const ProductExist= cartItems.find((item) => item.id === product.id);
     if(ProductExist){
+      alert("This product is already in this cart")
       setCartItems(
         cartItems.map((item) =>
            item.id === product.id
@@ -54,7 +55,6 @@ const App = () => {
         handleRemoveProduct={handleRemoveProduct}
         handleCartClearance={handleCartClearance}
       />
-      <Home />
     </Router>
   </div>
     </>
