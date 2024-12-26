@@ -14,6 +14,7 @@ const Rout = ({
   return (
     <div>
         <Routes>
+            <Route path="/" exact element={<Home  handleAddProduct={handleAddProduct} />} />
             <Route path="shop" exact element={<Products  handleAddProduct={handleAddProduct} />} />
             <Route path='about' exact element={<About />} />
             <Route path="cart" exact element={<Cart cartItems={cartItems}
